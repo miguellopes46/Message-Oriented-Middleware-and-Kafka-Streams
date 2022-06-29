@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Created-By: Apache Maven 3.8.3
+Built-By: main
+Build-Jdk: 16.0.2
+Class-Path: lib/jpa.jar lib/hibernate-core.jar lib/jboss-logging.jar lib
+ /hibernate-jpa-2.1-api.jar lib/javassist.jar lib/antlr.jar lib/geronimo
+ -jta_1.1_spec.jar lib/jandex.jar lib/classmate.jar lib/dom4j.jar lib/hi
+ bernate-commons-annotations.jar lib/cdi-api.jar lib/el-api.jar lib/jbos
+ s-interceptors-api_1.1_spec.jar lib/jsr250-api.jar lib/javax.inject.jar
+
