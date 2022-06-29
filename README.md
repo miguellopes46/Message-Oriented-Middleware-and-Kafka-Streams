@@ -1,31 +1,39 @@
 # Message-Oriented-Middleware-and-Kafka-Streams
-Projeto Realizado no âmbito de Integração de Sistemas. Projeto com Kafka Streams, Docker, etc., na linguagem JAVA
 
 
-
+Grade of 72% in this Assignment
 
 Project Description:
 Objectives
 • Learn how to create simple asynchronous and message-oriented applications.
+
 • Learn to use Kafka Streams.
+
 Make sure you understand the following concepts:
 • Producer
+
 • Consumer
+
 • Topic
-2/5
+
 • Partition and partition offset
+
 • Broker
+
 • Zookeper
 
 The credit card company has the following Kafka topics:
 • DBInfo, where one or more source connectors write a list of clients and managers
 present in the database.
+
 • Credits topic, where a process simulating client actions with the credit card keeps
 writing new outstanding debts from a client. Each purchase includes a price and a
 currency. Students should randomly select the values and the currency.
+
 • Payments topic, where a process simulating client actions (possibly the same)
 keeps writing payments, just as in the previous case. Students should need not
 concern if payments exceed the credits.
+
 • One or more applications using Kafka streams will listen to these topics and
 compute a few metrics, as enumerated in the requirements, including credits,
 Credits Topic
@@ -51,7 +59,8 @@ A server-side application will read data from the database and expose the data v
 The final piece of the application is a command line application that allows the
 administrator to enter items, countries and read statistics from the REST services. No
 authentication is necessary.
-Components to Develop
+
+Components to Develop:
 Students need to develop the following applications of Figure 1: Clients, Kafka Streams,
 the administrator CLI and the REST implementation. From this list, the former are standalone
 applications, while the latter is a server-side application to deploy on a server. They
@@ -60,6 +69,7 @@ database.
 Except for the data that was mentioned before, the precise definition of the communication
 format is left for the students to determine. Clean solutions that serialize complex data
 structures as JSON strings are encouraged.
+
 Requirements
 As an administrator I can perform the following actions (results should be compute in
 euros):
@@ -68,10 +78,10 @@ not changed.
 2. Add clients to the database. Again, these cannot be deleted and optionally not changed.
 Each client has a manager.
 3. Add a currency and respective exchange rate for the euro to the database.
-4. List managers from the database.
-5. List clients from the database.
-6. List currencies.
-7. Get the credit per client (students should compute this and the following values in
+5. List managers from the database.
+6. List clients from the database.
+7. List currencies.
+8. Get the credit per client (students should compute this and the following values in
 euros).
 8. Get the payments (i.e., credit reimbursements) per client.
 9. Get the current balance of a client.
