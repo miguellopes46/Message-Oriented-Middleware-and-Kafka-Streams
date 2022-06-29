@@ -1,5 +1,11 @@
 # Message-Oriented-Middleware-and-Kafka-Streams
 
+Done by:
+
+Miguel Lopes
+
+Miguel Pimenta
+
 
 Grade of 72% in this Assignment
 
