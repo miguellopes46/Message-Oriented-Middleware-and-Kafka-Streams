@@ -4,7 +4,7 @@ Done by:
 
 Miguel Lopes
 
-Miguel Pimenta
+Miguel Pimenta, uc2018287956@student.uc.pt
 
 
 Grade of 72% in this Assignment
